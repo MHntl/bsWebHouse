@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BS Web House</title>
+    <!--BS-Link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+        integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+    <!--CSS-Link-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Navbar-->
+    <div class=" fixed-top container-fluid p-0">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary px-5">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold" href="#">F<span class="text-danger">CODER</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Anasayfa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Hakkımızda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Servisler</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Portfolyo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Takım</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">İletişim</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!--Carousel-->
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item dim active">
+                <img src="İmages/home-1.jpg" class="d-block w-100 " alt="..." style=" height: calc(100vh - 56px);">
+                <div class="carousel-caption d-none d-md-block text-margin">
+                    <h5 class="fs-1">HAYALİNİZDEKİ EV BURADA</h5>
+                    <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, beatae
+                        blanditiis. Iure, tenetur reprehenderit? Rem odit voluptas iste iusto sit in, optio officiis
+                        eaque laudantium.</p>
+                    <button type="button" class="btn btn-warning">Daha Fazla</button>
+                </div>
+            </div>
+            <div class="carousel-item dim">
+                <img src="İmages/home-2.jpg" class="d-block w-100 " alt="..." style=" height: calc(100vh - 56px);">
+                <div class="carousel-caption d-none d-md-block text-margin">
+                    <h5 class="fs-1">HAYALİNİZDEKİ EV BURADA</h5>
+                    <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, beatae
+                        blanditiis. Iure, tenetur reprehenderit? Rem odit voluptas iste iusto sit in, optio officiis
+                        eaque laudantium.</p>
+                    <button type="button" class="btn btn-warning">Daha Fazla</button>
+                </div>
+            </div>
+            <div class="carousel-item dim">
+                <img src="İmages/home-3.jpg" class="d-block w-100 " alt="..." style=" height: calc(100vh - 56px);">
+                <div class="carousel-caption d-none d-md-block text-margin">
+                    <h5 class="fs-1">HAYALİNİZDEKİ EV BURADA</h5>
+                    <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, beatae
+                        blanditiis. Iure, tenetur reprehenderit? Rem odit voluptas iste iusto sit in, optio officiis
+                        eaque laudantium.</p>
+                    <button type="button" class="btn btn-warning">Daha Fazla</button>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!--Section-1-->
+    <div class="container mt-5 ">
+        <div class="row">
+            <div class="col-4">
+                <img class="w-100" src="İmages/about.jpg" alt="">
+            </div>
+            <div class="col-8 align-self-center">
+                <h4>Her zaman en iyi kalite ve hizmet sağlıuoruz</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore laudantium ab eum illum eos soluta
+                    aliquid dolor voluptates animi debitis facere earum tenetur voluptas nihil eaque quam pariatur
+                    blanditiis beatae officiis ea asperiores totam, atque optio? Ut, ipsum! Praesentium, ipsa
+                    architecto. Mollitia architecto officia veniam porro iure quidem magni tempore.</p>
+                <button type="button" class="btn btn-warning">Daha Fazla Bilgi</button>
+            </div>
+        </div>
+    </div>
+    <!--Servislerimiz-->
+    <div class="container text-center" style="margin-top: 150px;">
+        <div class="row ">
+            <h4>Servislerimiz</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda error, excepturi odio labore
+                inventore perspiciatis!</p>
+        </div>
+        <div class="row ">
+            <div class="col-4">
+                <div class="card text-bg-dark d-flex align-items-center text-center">
+                    <i class="bi bi-slack fs-1"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">En İyi Kalite</h5>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. expedita minima
+                            nihil error voluptas totam eaque id blanditiis ut vel nulla ex molestiae, consequuntur quos.
+                            Qui eveniet sapiente impedit dolorum repellendus.</p>
+                        <button type="button" class="btn btn-warning">Daha Fazla Bilgi</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card text-bg-dark d-flex align-items-center text-center">
+                    <i class="bi bi-slack fs-1"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Sürdürülebilirlik</h5>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. expedita minima
+                            nihil error voluptas totam eaque id blanditiis ut vel nulla ex molestiae, consequuntur quos.
+                            Qui eveniet sapiente impedit dolorum repellendus.</p>
+                        <button type="button" class="btn btn-warning">Daha Fazla Bilgi</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card text-bg-dark d-flex align-items-center text-center">
+                    <i class="bi bi-google fs-1"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Bütünlük</h5>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. expedita minima
+                            nihil error voluptas totam eaque id blanditiis ut vel nulla ex molestiae, consequuntur quos.
+                            Qui eveniet sapiente impedit dolorum repellendus.</p>
+                        <button type="button" class="btn btn-warning">Daha Fazla Bilgi</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Projelerimiz-->
+    <div class="container text-center" style="margin-top: 150px;">
+        <div class="row ">
+            <h4>Projelerimiz</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda error, excepturi odio labore
+                inventore perspiciatis!</p>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <div class="card  d-flex align-items-center text-center">
+                    <img src="İmages/project-1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Bina Yapımı</h5>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. expedita minima
+                            nihil error voluptas totam eaque id blanditiis ut vel nulla ex molestiae, consequuntur quos.
+                            Qui eveniet sapiente impedit dolorum repellendus.</p>
+                        <button type="button" class="btn btn-warning">Keşfet</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card  d-flex align-items-center text-center">
+                    <img src="İmages/project-2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Isı Yalıtım</h5>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. expedita minima
+                            nihil error voluptas totam eaque id blanditiis ut vel nulla ex molestiae, consequuntur quos.
+                            Qui eveniet sapiente impedit dolorum repellendus.</p>
+                        <button type="button" class="btn btn-warning">Keşfet</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card  d-flex align-items-center text-center">
+                    <img src="İmages/project-3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Cam Kaplama</h5>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. expedita minima
+                            nihil error voluptas totam eaque id blanditiis ut vel nulla ex molestiae, consequuntur quos.
+                            Qui eveniet sapiente impedit dolorum repellendus.</p>
+                        <button type="button" class="btn btn-warning">Keşfet</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Takım Arkadaşlarımız-->
+    <div class="container text-center" style="margin-top: 150px;">
+        <div class="row ">
+            <h4>Takım Arkadaşlarımız</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda error, excepturi odio labore
+                inventore perspiciatis!</p>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <div class="card  d-flex align-items-center text-center">
+                    <img src="İmages/team-1.jpg" class="card-img-top rounded-circle w-50 p-2 m-2" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Jack Wilson</h5>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. expedita minima
+                            nihil error voluptas totam eaque id blanditiis .</p>
+                        <i class="bi bi-instagram"></i>
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-twitter"></i>
+                        <i class="bi bi-linkedin"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card  d-flex align-items-center text-center">
+                    <img src="İmages/team-2.jpg" class="card-img-top rounded-circle w-50 p-2 m-2" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">George Brown</h5>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. expedita minima
+                            nihil error voluptas totam eaque id blanditiis .</p>
+                        <i class="bi bi-instagram"></i>
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-twitter"></i>
+                        <i class="bi bi-linkedin"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card  d-flex align-items-center text-center">
+                    <img src="İmages/team-3.jpg" class="card-img-top rounded-circle w-50 p-2 m-2" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Sarah Conner</h5>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. expedita minima
+                            nihil error voluptas totam eaque id blanditiis .</p>
+                        <i class="bi bi-instagram"></i>
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-twitter"></i>
+                        <i class="bi bi-linkedin"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card  d-flex align-items-center text-center">
+                    <img src="İmages/team-4.jpg" class="card-img-top rounded-circle w-50 p-2 m-2" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Jeniffer White</h5>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. expedita minima
+                            nihil error voluptas totam eaque id blanditiis .</p>
+                        <i class="bi bi-instagram"></i>
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-twitter"></i>
+                        <i class="bi bi-linkedin"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--İletişime Geçin-->
+    <div class="container mb-5" style="margin-top: 150px;">
+        <div class="row text-center">
+            <h4>Bizimle İletişime Geçin</h4>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, nisi laudantium. Atque tenetur possimus
+                sed?</P>
+        </div>
+        <form action="">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Adınızı giriniz</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email adresinizi giriniz</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Mesajınız</label>
+                <textarea class="form-control" placeholder="..." id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <button type="reset" class="btn btn-secondary w-100">Temizle</button>
+                </div>
+                <div class="col-6">
+                    <button type="reset" class="btn btn-warning w-100">Gönder</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <!--Footer-->
+    <div class="  container-fluid p-0 bg-secondary text-white">
+        <div class="row align-items-center m-auto d-flex justify-content-between w-75">
+            <div class="col-3">
+                <a class="navbar-brand fw-bold fs-2" href="#">F<span class="text-danger">CODER</span></a>
+                <br>
+                <div class="col mt-3">
+                    <i class="bi bi-instagram fs-4 me-1"></i>
+                    <i class="bi bi-facebook fs-4 me-1"></i>
+                    <i class="bi bi-twitter fs-4 me-1"></i>
+                    <i class="bi bi-linkedin fs-4 me-1"></i>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" lh-1 href="#">Anasayfa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link lh-1  m-0" href="#">Hakkımızda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link lh-1 m-0" href="#">Servisler</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link lh-1  m-0" href="#">Portfolyo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link lh-1 m-0" href="#">Takım</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link lh-1 m-0" href="#">İletişim</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-6">
+                <p>Güncel Kalmak İçin</p>
+                <div class="input-group mb-3 w-100 ">
+                    <input type="text" class="form-control " placeholder="Email Adresiniz"
+                        aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!--Script-BS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
